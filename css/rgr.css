@@ -1,0 +1,162 @@
+.start p { font-size: 40pt;
+  text-shadow: 3px 2px yellow;
+  font-family : Bahnschrift;
+ }
+.header {
+    color: #0023ff ;
+    background-color: #afab36; 
+}
+
+.body {
+    background-image : linear-gradient( #22c1c3, #fdbb2d); height: 100vh; 
+}
+/* Меню */
+ul {
+    padding: 0;
+    width: 100%;
+    
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 24%;
+    margin-right: 0;
+    text-align: center;
+    line-height: 2,5;
+    color: black;
+  }
+  
+  li:last-child a {
+    margin-right: 0;
+  }
+  
+  a:link, a:visited, a:focus {
+    background: #000cb1;
+  }
+  a:hover {
+    background: orange;
+  }
+  
+  a:active {
+    background: red;
+    color: white; }
+nav {
+    background-color: #000cb1;
+}
+/* Slider */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+/* smist*/
+.text1{
+  width: 50%;
+  float: left;
+  border: 3px double blue;
+  margin-right: 20px;
+  padding: 10px;
+  background: #e58c12;
+}
+  .text2{
+    width: 45%;
+    float: right;
+    border: 3px double blue;
+    margin-right: 20px;
+    padding: 10px;
+    background: #e58c12;
+}
+.administrate{
+  height: 50px;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20pt;
+  color: #afab36;
+}
+.back{
+  background-color: #0023ff;
+}
+.start{
+  font-size: 30pt;
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #2900dd;
+}
+.footer__map{ 
+  padding-top: 10px; 
+  max-width: 630px; 
+  width: 100%; 
+} 
+.footer__map iframe{ 
+  width: 100%;}
